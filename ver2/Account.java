@@ -13,13 +13,8 @@ public class Account {
 	public void setName(String name) {
 		this.name = name;
 	}
-		
-	// Constructor
-		public Account(double balance) {
-			this("Unknown", balance);
-		}
-		
-		public Account(String name, double balance) {
+			
+	public Account(String name, double balance) {
 			this.name = name;
 			this.balance = balance;
 		}
